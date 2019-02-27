@@ -1,0 +1,25 @@
+body {
+    background-color: salmon;
+}
+
+h2 {
+    color: teal;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.jumbotron {
+    background-color: #ffffff;
+}
+
+.portfolio-pic {
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+
+.portfolio-text {
+  float: left;  
+}
