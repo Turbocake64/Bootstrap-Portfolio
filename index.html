@@ -5,15 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/styles.css">
   </head>
   <body>
       
-    <nav class="navbar navbar-expand-lg navbar-light bg-light pos-f-t" style=" border-bottom: lightgray 1px;">
-        <a class="navbar-brand d-inline-flex p-2 bd-highlight" href="#">Micah Levi</a>
-        <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mr-sm-2 ml-auto">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light navbar-fixed-top p-0 mb-2 d-flex flex-md-wrap">
+        <div class="py-3 bg-info text-white px-5">
+          Micah Levi </div>
+                <ul class="navbar-nav mr-sm-12 ml-auto">
                     <li class="nav-item">
                       <a class="nav-link" href="index.html" target="_blank">About Me | </a>
                     </li>
@@ -26,19 +26,18 @@
                 </ul>
         </div>
     </nav>
-
-    <br>
    
-    <div class="container jumbotron">
+  <div class="container @include media-breakpoint-up(sm) { w-100 }">
+        <div class="jumbotron border border-secondary" id="jumbotron-custom">
         <div class="row">
             <h2 class="col-sm-12">About Me</h2>
         </div>
         <div class="row">
             <hr class="col-sm-12 my-4">
         </div>
-        <div class="row">
-            <img src="assets/images/PortfolioPic.jpg" class="col-lg-3 portfolio-pic">
-            <p class="col-lg-9 portfolio-text">
+        <div class="row d-flex flex-row">
+            <img src="assets/images/PortfolioPic.jpg" class="col-lg-3 @include media-breakpoint-up(md) { col-md-6 } @include media-breakpoint-up(sm) { col-sm-12 w-100 }" id="port-selfie">
+            <p class="col-lg-9 @include media-breakpoint-up(md) { col-md-6 } flex-col">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                         Nam corporis placeat nemo, beatae harum, nesciunt sit quos 
                         doloribus quaerat nihil, dolorem dolores architecto quo 
@@ -64,6 +63,7 @@
                         enim quaerat magnam non totam, error fugit voluptatem ratione. 
             </p>
         </div>
+      </div>
     </div>
   </body>
 </html>
