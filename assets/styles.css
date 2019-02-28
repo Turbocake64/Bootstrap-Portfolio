@@ -1,5 +1,5 @@
 body {
-    background-color: darkslategrey;
+    background-color: rgb(51, 77, 99);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -36,7 +36,3 @@ h2 {
 .portfolio-text {
   float: left;  
 }
-
-@include media-breakpoint-up(sm) { ... }
-@include media-breakpoint-up(md) { ... }
-@include media-breakpoint-up(lg) { ... }
