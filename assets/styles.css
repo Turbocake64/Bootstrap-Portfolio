@@ -1,25 +1,26 @@
 body {
-    background-color: salmon;
+    background-color: rgb(255, 204, 0);
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-h2 {
-    color: teal;
+h1 {
+    color: darkslategrey;
 }
 
-.container {
-    max-width: 960px;
-}
-
-.jumbotron {
-    background-color: #ffffff;
-}
-
-.portfolio-pic {
+.navbar-custom {
+    background-color: black;
+    border-bottom: 3px solid grey;
+  }
+  
+.standard-container {
+    border-radius: 2vw;
+    background-color: white;
+    margin-top: 8vh;
+    border: 2px solid grey;
+  }
+  
+  #bio-pic {
     float: left;
-    height: 200px;
-    width: 200px;
-}
-
-.portfolio-text {
-  float: left;  
-}
+    border: 1px solid grey;
+  }
+  
