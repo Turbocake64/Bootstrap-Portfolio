@@ -1,14 +1,20 @@
 # Bootstrap-Portfolio
 
-I failed to write a read me for the last homework so this is my first forray into document notation.
-I hope it's formatted ok.
+(UPDATE!)
 
-The Navbar works but is ugly. I can't get my name to sit atop the ul section and the ul items stack on top of each other once the screen gets too small.
+This is my updated Bootstrap Portfolio. I have included three assignments with links to gitHub in my portfolio and reorganized my three pages into one single page that toggles between the portfolio and about me section with a modal to substitute the contact me page. I took some liberty with the color scheme and, while the style isn't where I would like it, I have been inspired by some of my class mates' portfolio's and look forward to playing with some more css and js libraries to flesh mine out going forward. 
 
-I was finally able to get things to respond to the size of the screen and while some things are wonky like the text and photo of the index.html page not wrapping, for the most part I got it to do what I want. By no means do I think that this is a pretty assignment. 
+<---------------------------------------------------------------------------------------------------------->
 
-I am thinking of it as more of a proof of concept: I have proved that I understand how to use bootstrap to maniupulate elements on a page. Am I great at it? No! But I look forward to getting better as I continue to use it, the grid system, and bootstrap's built in media queries. 
+Built with:
 
-That being said, I welcome critiques on how I went about getting my responsiveness. I tried to avoid using the "@media" classes because the instructions said to avoid media queries, but frankly, I couldn't figure out how to get responsiveness without putting them in.
+* HTML
+* CSS
+* Bootstrap
+* Javascript
 
-Thanks for reading!
+<---------------------------------------------------------------------------------------------------------->
+
+Reflection:
+
+It is interesting to see how much work I have done and how much easier it is to set up a webpage compared to when I first did this assignment. That being said I didn't have the time to get this assignment where I wanted it. I would have liked to hook the contact form to a firebase database so I could actually go through and see what kind of contact I was getting. Additionally, the modal does not show up if the About Me div is shown. 
