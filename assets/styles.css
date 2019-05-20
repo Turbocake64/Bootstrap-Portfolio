@@ -24,3 +24,10 @@ h1 {
     border: 1px solid grey;
   }
   
+.card-img-top:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.05); 
+  transition:all 0.3s ease;
+  border: 2px solid black;
+}
